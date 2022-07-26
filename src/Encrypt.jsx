@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { PRIVATE_KEY } from "../secret.json";
 import CryptoJS from "crypto-js";
 import useCopyToClipboard from "./utils/copyTextToClipboard";
 import { toast } from "react-toastify";
@@ -46,11 +45,7 @@ function Encrypt() {
   };
 
   const handleEncrypt = (value) => {
-    const res = CryptoJS.AES.encrypt(
-      value,
-      formData.password,
-      PRIVATE_KEY
-    ).toString();
+    const res = CryptoJS.AES.encrypt(value, formData.password).toString();
     setEncrypt(res);
   };
 
