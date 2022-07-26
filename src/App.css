@@ -1,0 +1,95 @@
+#root {
+  width: 620px !important;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 8em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+  clear: both;
+  margin-top: 100px;
+}
+.tabs {
+  display: flex;
+  margin-bottom: 15px;
+}
+.tabs div:first-child {
+  margin-right: 20px;
+}
+.tabs div {
+  padding: 8px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.tabs div.active {
+  background-color: rgb(0, 66, 207);
+}
+
+.tabsText {
+  display: flex;
+  margin-bottom: 15px;
+}
+.tabsText div:first-child {
+  margin-right: 20px;
+}
+.tabsText div {
+  padding: 3px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tabsText div.active {
+  background-color: rgb(0, 66, 207);
+}
+
+.danger {
+  color: red;
+}
+.encrypt {
+  background-color: rgb(87, 87, 87);
+  width: 100%;
+  overflow-x: scroll;
+  padding: 10px;
+  border-radius: 12px;
+}
+.copyText {
+  background-color: rgb(255, 255, 0);
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: #333;
+  cursor: pointer;
+}
+.export-file {
+  color: rgb(255, 255, 0);
+  margin: 15px 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
