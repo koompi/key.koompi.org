@@ -21,7 +21,7 @@ function App() {
             <img src="/Koompi-white.png" className="logo" alt="Vite logo" />
           </a>
         </div>
-        <h1>Geanikey</h1>
+        <h1>Lockey</h1>
         <p>Encrypt messages, files, or text that matter.</p>
         <p>by KOOMPI</p>
       </center>
@@ -50,7 +50,7 @@ function App() {
 
       <h2>About</h2>
       <p>
-        <b>Geanikey</b> a text and file encrypt and decrytion tool. The purpose is of this little tool is for encrypting important file or text with passord that ones could easily be remembered. 
+        <b>Lockey</b> a text and file encrypt and decrytion tool. The purpose is of this little tool is for encrypting important file or text with passord that ones could easily be remembered. 
       </p>
       <p>
       Then, to decrypt it back, users just need to paste the <b>encrypted hash</b> with the <b>passord</b> they used to encrypt it.
