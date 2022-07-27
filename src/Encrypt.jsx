@@ -127,16 +127,18 @@ function Encrypt() {
       <br />
       <h2>How to encrypt?</h2> 
       <ol>
-        <li>By Default it choose <b>Text</b> to encrypt. Select <b>File</b>, if you wish you encrypt a file.</li>
-        <li>Enter a password. Please make sure, you don't forget or lose it. It is the only key to get your file or text to decrypt.</li>
+        <li>By Default, it chooses <b>Text</b> to encrypt. Select <b>File</b>, if you wish you encrypt a <b>File</b>.</li>
+        <li>Enter password. Make sure, you don't forget or lose this passord. It is the only key to get your file or text to decrypt, on top of an <b>Encrypted Hash</b></li>
         <li>Click <b>Encrypt</b></li>
-        <li><b>Copy the Hash</b> and keep it somewhere. This is the text that you will use to decrypt with your password.</li>
+        <li><b>Copy the Hash</b> and keep it somewhere save.</li>
       </ol>
 
+    
+      <h3> Note** </h3>
       <p>
-        <h3> Note** </h3>
-        Try it out first with not important data before do encrypt important data. 
-        </p>
+        Try it out first before working with important data. <br />
+        <b>Encrypted Hash</b> is the hash that will be used to decypt your message back. 
+      </p>
     </div>
   );
 }
