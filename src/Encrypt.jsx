@@ -125,7 +125,7 @@ function Encrypt() {
       <br />
       <br />
       <br />
-      <h2>How to encrypt?</h2> 
+      <h1>How to encrypt?</h1> 
       <ol>
         <li>By Default, it chooses <b>Text</b> to encrypt. Select <b>File</b>, if you wish you encrypt a <b>File</b>.</li>
         <li>Enter password. Make sure, you don't forget or lose this passord. It is the only key to get your file or text to decrypt, on top of an <b>Encrypted Hash</b></li>
@@ -134,7 +134,7 @@ function Encrypt() {
       </ol>
 
     
-      <h3> Note** </h3>
+      <h2> Note** </h2>
       <p>
         Try it out first before working with important data. <br />
         <b>Encrypted Hash</b> is the hash that will be used to decypt your message back. 

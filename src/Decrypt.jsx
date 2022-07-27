@@ -88,7 +88,7 @@ function Decrypt() {
       <br />
       <br />
       <br />
-      <h2>How to Decrypt?</h2> 
+      <h1>How to Decrypt?</h1> 
       <ol>
         <li>Paste your encrypted hash in the hash text area.</li>
         <li>Supply your password, which you used to encrypt your file.</li>
