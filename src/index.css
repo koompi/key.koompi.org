@@ -50,7 +50,8 @@ h1 {
   margin-top: 15px;
   float: left;
   clear: both;
-  background-color: rgb(0, 66, 207);
+  background-color: yellow;
+  color: black;
 }
 .my-app:hover {
   border-color: #646cff;

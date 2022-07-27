@@ -9,8 +9,6 @@ function Encrypt() {
     text: "",
   });
 
-  const [formRequired, setFormRerequired] = useState(false);
-
   const [encrypt, setEncrypt] = useState("");
   const [textType, setTextType] = useState(true);
 
@@ -19,11 +17,11 @@ function Encrypt() {
     const { password, text } = formData;
 
     if (!password || !text) {
-      setFormRerequired(true);
+      toast.error("All input required!");
       return;
     }
 
-    toast.success("Created with successfully!", {
+    toast.success("Copy your hash and remember your password!", {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
@@ -63,12 +61,7 @@ function Encrypt() {
 
   return (
     <div>
-      <input
-        name="password"
-        type="password"
-        placeholder="Password"
-        onChange={handleChange}
-      />
+      <br />
       <div className="tabsText">
         <div
           className={textType && "active"}
@@ -83,6 +76,7 @@ function Encrypt() {
           File
         </div>
       </div>
+      <label>*Encryption</label>
       {textType && (
         <textarea
           name="text"
@@ -95,9 +89,26 @@ function Encrypt() {
         <input name="file" type="file" onChange={(e) => showFile(e)} />
       )}
 
-      {(!formData.password || !formData.text) && formRequired && (
-        <p className="danger">All input required!</p>
-      )}
+      <br />
+      <br />
+
+      <div className="form-section">
+        <label>*Password</label>
+        <input
+          name="password"
+          type="password"
+          placeholder="Password"
+          onChange={handleChange}
+        />
+      </div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <p className="warning">Do not forgot your password!</p>
+
+        {/* {
+          formRequired && toast.error("All input required!")
+          // <p className="danger">All input required!</p>
+        } */}
+      </div>
 
       <button
         onClick={onSubmit}
@@ -117,6 +128,14 @@ function Encrypt() {
           </div>{" "}
         </div>
       )}
+
+      <br />
+      <br />
+      <br />
+      <h2>How it works?</h2>
+      {/* <ol>
+        <li>Hello world</li>
+      </ol> */}
     </div>
   );
 }

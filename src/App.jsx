@@ -43,11 +43,10 @@ function App() {
             Decrypt
           </div>
         </div>
-
-        {tabs === "encrypt" && <Encrypt />}
-
-        {tabs === "decrypt" && <Decrypt />}
       </div>
+      {tabs === "encrypt" && <Encrypt />}
+
+      {tabs === "decrypt" && <Decrypt />}
 
       <center>
         <p className="read-the-docs">
