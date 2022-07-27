@@ -81,10 +81,20 @@ function Decrypt() {
           Export your File
         </div>
       )}
-
       <button onClick={handleDecrypt} className="my-app">
         Decrypt
       </button>
+
+      <br />
+      <br />
+      <br />
+      <h2>How to Decrypt?</h2> 
+      <ol>
+        <li>Paste your encrypted hash in the hash text area.</li>
+        <li>Supply your password, which you used to encrypt your file.</li>
+        <li>Click <b>Decrypt</b> button</li>
+      </ol>
+    
     </div>
   );
 }

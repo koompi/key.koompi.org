@@ -125,10 +125,18 @@ function Encrypt() {
       <br />
       <br />
       <br />
-      <h2>How it works?</h2>
-      {/* <ol>
-        <li>Hello world</li>
-      </ol> */}
+      <h2>How to encrypt?</h2> 
+      <ol>
+        <li>By Default it choose <b>Text</b> to encrypt. Select <b>File</b>, if you wish you encrypt a file.</li>
+        <li>Enter a password. Please make sure, you don't forget or lose it. It is the only key to get your file or text to decrypt.</li>
+        <li>Click <b>Encrypt</b></li>
+        <li><b>Copy the Hash</b> and keep it somewhere. This is the text that you will use to decrypt with your password.</li>
+      </ol>
+
+      <p>
+        <h3> Note** </h3>
+        Try it out first with not important data before do encrypt important data. 
+        </p>
     </div>
   );
 }
