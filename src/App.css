@@ -103,6 +103,8 @@
 }
 .warning {
   color: yellow;
+  position: relative;
+  top: -25px;
 }
 .form-section {
   position: relative;

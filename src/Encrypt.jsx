@@ -100,14 +100,7 @@ function Encrypt() {
           placeholder="Password"
           onChange={handleChange}
         />
-      </div>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p className="warning">Do not forgot your password!</p>
-
-        {/* {
-          formRequired && toast.error("All input required!")
-          // <p className="danger">All input required!</p>
-        } */}
       </div>
 
       <button
